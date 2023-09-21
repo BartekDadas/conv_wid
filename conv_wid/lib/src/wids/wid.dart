@@ -5,10 +5,6 @@ import 'repo/wid_repo.dart';
 
 part 'wid.freezed.dart';
 
-String widToString(Widget widget) {
-  Wid wid = Wid(widget: widget);
-  return wid.toWidString();
-}
 
 @freezed
 class Wid extends Widget with _$Wid {
